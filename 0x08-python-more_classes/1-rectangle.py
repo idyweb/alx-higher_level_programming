@@ -11,10 +11,10 @@ class Rectangle:
 
         Args:
             width (int): The width of rectantgle.
-            height (int): The heght of rectangle.
+            height (int): The height of rectangle.
         """
-        self.__width = width
         self.__height = height
+        self.__width = width
 
     @property
     def height(self):
