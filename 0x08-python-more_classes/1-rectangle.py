@@ -1,8 +1,17 @@
 #!/usr/bin/python3
 
+"""Define a Recrangle class."""
+
+
 class Rectangle:
     """Rectangle class"""
+
     def __init__(self, width=0, height=0):
+        """Initialize a new rectangle
+        Args:
+            height (int): height of the rec
+            width (int): width of the rec
+        """
         self.__height = height
         self.__width = width
 
