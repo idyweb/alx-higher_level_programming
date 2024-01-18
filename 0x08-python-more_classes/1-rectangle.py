@@ -3,8 +3,8 @@
 """Define a Rectangle class."""
 
 
-class Rectanglr:
-    """Represents a rectanglr"""
+class Rectangle:
+    """Represents a rectangle"""
 
     def __init___(self, width=0, height=0):
         """Initialize a new rectangle.
